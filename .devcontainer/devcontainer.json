@@ -1,0 +1,11 @@
+{
+	"name": "Existing Dockerfile",
+	"context": "..",
+	"dockerFile": "../Dockerfile",
+	"settings": {},
+	"extensions": [
+		"esbenp.prettier-vscode",
+		"ms-azuretools.vscode-docker",
+		"JuanBlanco.solidity"
+	]
+}

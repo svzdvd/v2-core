@@ -11,6 +11,19 @@ The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/br
 
 The following assumes the use of `node@>=10`.
 
+## Run in a development container
+
+To develop and debug in a fresh already setup environment you need [docker](https://docs.docker.com/get-docker/)
+
+### Visual Studio Code
+
+Install these plugins from the marketplace
+
+- `ms-vscode-remote.remote-containers`
+- `ms-azuretools.vscode-docker`
+
+Open the "Command Palette" (Ctrl+Shift+P) and select "Remote-Containers: Open Folder in Container...", than point the current project folder and select "From 'Dockerfile'"
+
 ## Install Dependencies
 
 `yarn`
